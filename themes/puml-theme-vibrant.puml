@@ -8,6 +8,7 @@ skinparam SequenceGroupHeaderFontColor 454645
 skinparam SequenceGroupFontColor 696969
 skinparam SequenceGroupBorderColor 696969
 skinparam SequenceGroupBorderThickness 1
+
 skinparam participant {
     BackgroundColor FF6347
     BorderColor FF6F61
@@ -16,12 +17,42 @@ skinparam participant {
 
 skinparam database {
     BackgroundColor 00FFFF
-    BorderColor 696969
+    BorderColor 454645
     FontColor FFFFFF
+}
+
+skinparam entity {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
 }
 
 skinparam note {
     BackgroundColor 7FFFD4
     BorderColor 7FFFD4
+    FontColor 454645
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF6347
+    BorderColor FFFFFF
     FontColor 454645
 }
