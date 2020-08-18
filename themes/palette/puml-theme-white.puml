@@ -1,0 +1,33 @@
+skinparam BackgroundColor FFFFFF
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 696969
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 696969
+skinparam SequenceGroupBorderColor 696969
+skinparam SequenceGroupBorderThickness 1
+skinparam participant {
+    BackgroundColor FF6347
+    BorderColor FF6F61
+    FontColor FFFFFF
+}
+
+skinparam database {
+    BackgroundColor 00FFFF
+    BorderColor 696969
+    FontColor FFFFFF
+}
+
+skinparam note {
+    BackgroundColor 7FFFD4
+    BorderColor 7FFFD4
+    FontColor 454645
+}
+
+participant Client
+participant Backend
+participant Queue
+database RDB
+participant External
