@@ -1,6 +1,6 @@
 # puml-themes
 
-PlantUML theme for all developper.
+PlantUML theme for all developers.
 
 ## Usage
 
@@ -16,6 +16,7 @@ control Foo3
 entity Foo4
 database Foo5
 collections Foo6
+note over Foo1: Event
 Foo1 -> Foo2 : To boundary
 Foo1 -> Foo3 : To control
 Foo1 -> Foo4 : To entity
