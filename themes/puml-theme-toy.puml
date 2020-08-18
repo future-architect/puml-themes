@@ -28,9 +28,3 @@ skinparam note {
     BorderColor LightGreen
     FontColor 454645
 }
-
-entity Client
-participant Backend
-participant Queue
-database RDB
-entity "External"

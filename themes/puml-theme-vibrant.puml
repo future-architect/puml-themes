@@ -25,9 +25,3 @@ skinparam note {
     BorderColor 7FFFD4
     FontColor 454645
 }
-
-participant Client
-participant Backend
-participant Queue
-database RDB
-participant External
