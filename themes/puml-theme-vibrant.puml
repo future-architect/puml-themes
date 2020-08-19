@@ -9,6 +9,12 @@ skinparam SequenceGroupFontColor 696969
 skinparam SequenceGroupBorderColor 696969
 skinparam SequenceGroupBorderThickness 1
 
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
 skinparam participant {
     BackgroundColor FF6347
     BorderColor FF6F61
