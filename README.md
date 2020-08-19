@@ -70,4 +70,4 @@ Output is bellow.
 
 
 ## License
-This version of giglocal is released under the Apache License, Version 2.0 (see [LICENSE](https://github.com/future-architect/puml-themes/blob/master/LICENSE)).
+This version of puml-themes is released under the Apache License, Version 2.0 (see [LICENSE](https://github.com/future-architect/puml-themes/blob/master/LICENSE)).
