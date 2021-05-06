@@ -24,7 +24,7 @@ skinparam participant {
 skinparam database {
     BackgroundColor 00FFFF
     BorderColor 454645
-    FontColor FFFFFF
+    FontColor 454645
 }
 
 skinparam entity {
