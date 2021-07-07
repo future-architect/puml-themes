@@ -1,3 +1,10 @@
+''
+'' The vibrant theme from https://github.com/future-architect/puml-themes
+'' 
+'' Original Author: [future-architect](https://github.com/future-architect)
+'' Source: [future-architect/puml-themes](https://github.com/future-architect/puml-themes/tree/master/themes)
+'' License: [Apache License, Version 2.0](https://github.com/future-architect/puml-themes/blob/master/LICENSE) 
+''
 skinparam BackgroundColor FFFFFF
 skinparam shadowing false
 skinparam RoundCorner 7
@@ -61,4 +68,11 @@ skinparam collections {
     BackgroundColor FF6347
     BorderColor FFFFFF
     FontColor 454645
+}
+
+skinparam queue {
+    BackgroundColor FF6347
+    BorderColor FFF
+    FontColor FFF
+    BorderThickness 1.5
 }
