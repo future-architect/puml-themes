@@ -1,3 +1,10 @@
+''
+'' The toy theme from future-architect/puml-themes
+'' 
+'' Original Author: [future-architect](https://github.com/future-architect)
+'' Source: [future-architect/puml-themes](https://github.com/future-architect/puml-themes/tree/master/themes)
+'' License: [Apache License, Version 2.0](https://github.com/future-architect/puml-themes/blob/master/LICENSE) 
+''
 skinparam BackgroundColor DDDDDD
 skinparam shadowing false
 skinparam RoundCorner 7
@@ -61,4 +68,11 @@ skinparam collections {
     BackgroundColor FF6F61
     BorderColor 454645
     FontColor 454645
+}
+
+skinparam queue {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
 }
