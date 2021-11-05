@@ -105,6 +105,7 @@ Output is bellow.
 ![](example/example_mars.png)
 
 All the theme above are also available in the official PlantUML theme library.
+
 However, all future updates and themes will be reflected in this repository first.
 
 ## License
