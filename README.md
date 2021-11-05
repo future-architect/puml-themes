@@ -10,7 +10,7 @@ For more details, please check [here(日本語)](https://future-architect.github
 
 ## Usage
 
-Write `!include <path to the wanted theme in this repository>` between @startuml and @enduml block.
+Write `!include <path to the desired theme in this repository>` between @startuml and @enduml block.
 
 ### Example of 'toy' theme
 
