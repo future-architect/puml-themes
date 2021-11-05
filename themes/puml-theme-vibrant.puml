@@ -43,8 +43,9 @@ skinparam entity {
 
 skinparam note {
     BackgroundColor 7FFFD4
-    BorderColor 7FFFD4
+    BorderColor 454645
     FontColor 454645
+    BorderThickness 1.5
 }
 
 skinparam actor {
