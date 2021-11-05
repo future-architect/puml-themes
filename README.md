@@ -10,11 +10,9 @@ For more details, please check [here(日本語)](https://future-architect.github
 
 ## Usage
 
-Write `!include <This repository plantuml path>` between @startuml and @enduml block.
+Write `!include <path to the wanted theme in this repository>` between @startuml and @enduml block.
 
 ### Example of 'toy' theme
-
-Use the theme from your diagram:
 
 ```
 @startuml 
@@ -106,6 +104,8 @@ Output is bellow.
 
 ![](example/example_mars.png)
 
+All the theme above are also available in the official PlantUML theme library.
+However, all future updates and themes will be reflected in this repository first.
 
 ## License
 This version of puml-themes is released under the Apache License, Version 2.0 (see [LICENSE](https://github.com/future-architect/puml-themes/blob/master/LICENSE)).
