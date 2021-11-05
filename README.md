@@ -20,18 +20,22 @@ Use the theme from your diagram:
 @startuml 
 !include https://raw.githubusercontent.com/future-architect/puml-themes/master/themes/puml-theme-toy.puml
 
-actor Foo1
-boundary Foo2
-control Foo3
-entity Foo4
-database Foo5
-collections Foo6
-note over Foo1: Event
-Foo1 -> Foo2 : To boundary
-Foo1 -> Foo3 : To control
-Foo1 -> Foo4 : To entity
-Foo1 -> Foo5 : To database
-Foo1 -> Foo6 : To collections
+participant Participant as Foo
+note over Foo: Event
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
 
 @enduml
 ```
@@ -47,18 +51,22 @@ Output is bellow.
 @startuml 
 !include https://raw.githubusercontent.com/future-architect/puml-themes/master/themes/puml-theme-vibrant.puml
 
-actor Foo1
-boundary Foo2
-control Foo3
-entity Foo4
-database Foo5
-collections Foo6
-note over Foo1: Event
-Foo1 -> Foo2 : To boundary
-Foo1 -> Foo3 : To control
-Foo1 -> Foo4 : To entity
-Foo1 -> Foo5 : To database
-Foo1 -> Foo6 : To collections
+participant Participant as Foo
+note over Foo: Event
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
 
 @enduml
 ```
@@ -67,6 +75,36 @@ Output is bellow.
 
 ![](example/example_vibrant.png)
 
+
+### Example of 'mars' theme
+
+```
+@startuml 
+!include https://raw.githubusercontent.com/future-architect/puml-themes/master/themes/puml-theme-mars.puml
+
+participant Participant as Foo
+note over Foo: Event
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+
+@enduml
+```
+
+Output is bellow.
+
+![](example/example_mars.png)
 
 
 ## License
