@@ -1,18 +1,18 @@
 # puml-themes
 
-PlantUML theme for all developers. 
+PlantUML themes for all developers. 
 
 ## Abstract
 
-This theme is suitable for use in expressing the processing flow of business functions mass-produced by a team. It is mainly intended for use in sequence diagrams.
+These themes were created as part of a standardization effort to help design teams mass-produce business functions' processing flows. It is mainly intended for use in sequence diagrams.
 
-For more detailed explanation, please check [here(日本語)](https://future-architect.github.io/articles/20200203/).
+For more details, please check [here(日本語)](https://future-architect.github.io/articles/20200203/). (available in Japanese only)
 
 ## Usage
 
 Write `!include <This repository plantuml path>` between @startuml and @enduml block.
 
-### Example toy theme
+### Example of 'toy' theme
 
 Use the theme from your diagram:
 
@@ -41,7 +41,7 @@ Output is bellow.
 ![](example/example_toy.png)
 
 
-### Example vibrant theme
+### Example of 'vibrant' theme
 
 ```
 @startuml 
